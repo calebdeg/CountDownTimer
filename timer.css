@@ -1,0 +1,65 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/codingPic1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'font-awesome', sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.countdown-container{
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.days-container{
+    color: rgb(152, 78, 221);
+}
+
+.hours-container{
+    color: rgb(52, 146, 228);
+}
+
+.mins-container{
+    color: rgb(252, 142, 40);
+}
+
+.seconds-container{
+    color: rgb(252, 33, 142);
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
+
+audio{
+    margin-top: 15rem;
+}
